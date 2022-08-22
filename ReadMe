@@ -1,0 +1,22 @@
+提升Gradle构建速度
+一、使用最新版的Gradle插件，AGP
+
+二、避免激活旧的Multidex
+
+三、禁止Multidex Apk构建
+Gradle性能指标   全量编译      代码增量编译   修改了Java Kotlin类     资源增量编译
+发布到应用市场时   不需要打各种包
+
+四、最小化打包资源文件
+
+五、禁用PNG压缩
+
+六、PNG转WebP
+
+七、推荐使用Instant Run
+
+八、不使用动态依赖版本号
+
+九、Gradle内存分类调优
+
+十、开启Gradle构建缓存
