@@ -40,7 +40,7 @@ class SplashActivity : BaseUIActivity() {
         } else {
             val token = SPUtils.getInstance()?.getString(Constants.SP_TOKEN, "")
             if (token.isNullOrEmpty()) {
-                intent.setClass(this, GuideActivity::class.java)
+                intent.setClass(this, LoginActivity::class.java)
             } else {
                 intent.setClass(this, MainActivity::class.java)
             }
