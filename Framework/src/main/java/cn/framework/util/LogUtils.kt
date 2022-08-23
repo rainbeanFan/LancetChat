@@ -1,12 +1,8 @@
-package cn.framework
+package cn.framework.util
 
 import android.util.Log
-import java.io.BufferedWriter
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.FileOutputStream
-import java.io.IOException
-import java.io.OutputStreamWriter
+import cn.framework.BuildConfig
+import java.io.*
 import java.nio.charset.Charset
 import java.text.SimpleDateFormat
 import java.util.*
@@ -20,7 +16,7 @@ class LogUtils private constructor(){
         private val mSimpleFormatter = SimpleDateFormat("YYYY-MM-DD HH:MM:ss")
 
         @JvmStatic
-        fun getInstance():LogUtils{
+        fun getInstance(): LogUtils {
             return SingletonHolder.holder
         }
 

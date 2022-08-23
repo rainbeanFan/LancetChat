@@ -1,10 +1,6 @@
 package cn.lancetchat
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import cn.framework.LogUtils
-import cn.framework.SystemUI
-import cn.framework.TimeUtils
 import cn.framework.base.BaseUIActivity
 import cn.lancetchat.databinding.ActivityMainBinding
 
@@ -17,7 +13,6 @@ class MainActivity : BaseUIActivity() {
         mBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mBinding!!.root)
 
-        LogUtils.i(TimeUtils.formatTime(System.currentTimeMillis()))
 
     }
 }

@@ -1,4 +1,4 @@
-package cn.framework
+package cn.framework.util
 
 class TimeUtils {
 

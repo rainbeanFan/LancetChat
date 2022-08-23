@@ -1,4 +1,4 @@
-package cn.framework
+package cn.framework.util
 
 import android.app.Activity
 import android.graphics.Color
