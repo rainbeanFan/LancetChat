@@ -1,5 +1,6 @@
 package cn.lancetchat.adapter
 
+import android.graphics.drawable.AnimationDrawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,18 +22,25 @@ class GuideView(
     fun bind(position: Int) {
         when (position) {
             0 -> {
-                ivPic.setImageResource(R.drawable.guide_star_anim)
+                ivPic.setBackgroundResource(R.drawable.guide_star_anim)
                 tvSlogan.text = view.context.getString(R.string.text_guide_pager_1)
+                val animStar = ivPic.background as AnimationDrawable
+                animStar.start()
             }
             1 -> {
-                ivPic.setImageResource(R.drawable.guide_night_anim)
+                ivPic.setBackgroundResource(R.drawable.guide_night_anim)
                 tvSlogan.text = view.context.getString(R.string.text_guide_pager_2)
+                val animStar = ivPic.background as AnimationDrawable
+                animStar.start()
             }
             2 -> {
-                ivPic.setImageResource(R.drawable.guide_smile_anim)
+                ivPic.setBackgroundResource(R.drawable.guide_smile_anim)
                 tvSlogan.text = view.context.getString(R.string.text_guide_pager_3)
+                val animStar = ivPic.background as AnimationDrawable
+                animStar.start()
             }
         }
+
     }
 
 }
