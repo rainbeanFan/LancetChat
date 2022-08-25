@@ -20,3 +20,5 @@ Gradle性能指标   全量编译      代码增量编译   修改了Java Kotlin
 九、Gradle内存分类调优
 
 十、开启Gradle构建缓存
+
+App启动

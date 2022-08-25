@@ -39,6 +39,12 @@
             android:name=".GuideActivity"
             android:theme="@style/Theme.LancetChat" />
 
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="cn.lancetchat.BmobContentProvider">
+        </provider>
+
     </application>
 
 </manifest>

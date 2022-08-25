@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@drawable/shape_loding_bg"
+        android:background="@drawable/shape_loading_bg"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -16,7 +16,7 @@
             android:id="@+id/iv_loading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/img_loding" />
+            android:src="@drawable/img_loading" />
 
         <TextView
             android:id="@+id/tv_loading_text"

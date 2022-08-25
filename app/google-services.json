@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35405652808",
+    "project_id": "lancetchat",
+    "storage_bucket": "lancetchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35405652808:android:e58e003bc5c5d8c17ec97d",
+        "android_client_info": {
+          "package_name": "cn.lancetchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35405652808-rvfjbe9q0oi2urem4d9djhl4ba7ktteq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnom-Hg6-RmMo3n6icxdsyeFPD8vaWGH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35405652808-rvfjbe9q0oi2urem4d9djhl4ba7ktteq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

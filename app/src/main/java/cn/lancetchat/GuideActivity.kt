@@ -1,9 +1,11 @@
 package cn.lancetchat
 
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
 import cn.framework.base.BaseUIActivity
+import cn.framework.util.LogUtils
 import cn.lancetchat.adapter.GuideAdapter
 import cn.lancetchat.databinding.ActivityGuideBinding
 
@@ -32,6 +34,7 @@ class GuideActivity : BaseUIActivity() {
                 selectPosition(position)
             }
         })
+
 
     }
 

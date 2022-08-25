@@ -10,7 +10,7 @@ import cn.bmob.v3.exception.BmobException
 import cn.bmob.v3.listener.*
 import java.io.File
 
-const val BMOB_SDK_ID = "bmob_sdk_id"
+const val BMOB_SDK_ID = "b0ac56a8f8dd1d9889c8851845134422"
 const val BMOB_NEW_DOMAIN = "bmob_new_domain"
 
 class BmobManager private constructor() {
@@ -29,8 +29,8 @@ class BmobManager private constructor() {
     }
 
     fun initBmob(context: Context) {
-        Bmob.resetDomain(BMOB_NEW_DOMAIN)
-        Bmob.initialize(context, BMOB_SDK_ID)
+//        Bmob.resetDomain(BMOB_NEW_DOMAIN)
+//        Bmob.initialize(context, BMOB_SDK_ID)
     }
 
     fun isLogin() = BmobUser.isLogin()
